@@ -38,7 +38,7 @@ app.post("/failure",function(req,res){
   const url = "https://us14.api.mailchimp.com/3.0/lists/2b2517bab1";
   const options = {
     method:"POST",
-    auth: "KS:24eafd2b1552d693e0b2aa025d9aede0-us14",
+    auth: "KS:24eafd2b1552d693e0b2aa025d9aede0-us14", //add your API key
   }
 
 
